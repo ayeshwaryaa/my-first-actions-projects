@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions! 🎉"
+      - name: List files in the repository
+        run: ls -la
